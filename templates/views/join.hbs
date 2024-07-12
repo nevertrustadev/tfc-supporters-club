@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <link rel="icon" href="/img/TFCSC-LOGO.png">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <div class="form">
+                <p>{{message}}</p>
+                <form>
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name</label><br>
+                    <input type="text" id="lname" name="lname">
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email">
+                    <input type="submit">
+                </form>
+            </div>
+           
+        </div>
+        {{>footer}}
+    </body>
+</html>
